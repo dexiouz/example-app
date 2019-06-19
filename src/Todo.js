@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Header from "./Header";
 class Todo extends Component {
-    render(){
+  render() {
     return (
-      <h1> Welcome to my todo App </h1>
-    )
+      <div>
+        <Header />
+        <h1> Welcome to my todo App </h1>
+      </div>
+    );
   }
 }
 export default Todo;
