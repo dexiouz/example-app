@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-const Header = () => {
-  return <h2>TODO_APP</h2>;
+const Header = props => {
+  return <h2>{props.title}</h2>;
 };
 
 export default Header;
